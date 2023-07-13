@@ -1,4 +1,7 @@
-# How to do it! 
+# How to do it!
+1. Clone the repo
+1a. git clone https://github.com/NordThing/jfsaccounting.git
+
 
 
 Fribok is a project for a free accounting software developed in Java. This
