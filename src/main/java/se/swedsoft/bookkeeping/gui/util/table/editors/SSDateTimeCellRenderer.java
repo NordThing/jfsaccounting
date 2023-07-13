@@ -1,0 +1,54 @@
+/*
+ * 2005-2010
+ * $Id: SSDateTimeCellRenderer.java 176 2010-04-10 19:57:04Z skangas $
+ */
+package se.swedsoft.bookkeeping.gui.util.table.editors;
+
+
+import javax.swing.table.DefaultTableCellRenderer;
+import java.text.DateFormat;
+
+
+/**
+ * This class implements a cell renderer that renders a Date and time
+ *
+ */
+public class SSDateTimeCellRenderer extends DefaultTableCellRenderer {
+
+    // The formatter to use.
+    private DateFormat iDateFormat;
+    private DateFormat iTimeFormat;
+
+    /**
+     * Default constructor.
+     */
+    public SSDateTimeCellRenderer() {
+        iDateFormat = DateFormat.getDateInstance(DateFormat.SHORT);
+        iTimeFormat = DateFormat.getTimeInstance(DateFormat.SHORT);
+    }
+
+    /**
+     * Sets the value for the cell.
+     *
+     * @param value The value to format.
+     */
+    @Override
+    public void setValue(Object value) {
+        if (value == null) {
+            setText("");
+        } else {
+            setText(iDateFormat.format(value) + ' ' + iTimeFormat.format(value));
+        }
+    }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder();
+
+        sb.append("se.swedsoft.bookkeeping.gui.util.table.editors.SSDateTimeCellRenderer");
+        sb.append("{iDateFormat=").append(iDateFormat);
+        sb.append(", iTimeFormat=").append(iTimeFormat);
+        sb.append('}');
+        return sb.toString();
+    }
+}
