@@ -202,12 +202,15 @@
       <version>1.8.0.7</version>
       <scope>compile</scope>
     </dependency>
+    <!-- Changed 20230713 -->
     <dependency>
       <groupId>org.fribok</groupId>
       <artifactId>fonts</artifactId>
       <version>0.1</version>
-      <scope>compile</scope>
+      <scope>system</scope>
+      <systemPath>/home/user/jfsaccounting/data/fonts.jar</systemPath>
     </dependency>
+    <!-- End of changes -->
     <dependency>
       <groupId>com.lowagie</groupId>
       <artifactId>itext</artifactId>
@@ -294,12 +297,15 @@
       <version>2.11.0</version>
       <scope>compile</scope>
     </dependency>
+    <!-- Changes 20230713 -->
     <dependency>
       <groupId>org.fribok</groupId>
       <artifactId>help</artifactId>
       <version>0.1</version>
-      <scope>compile</scope>
+      <scope>system</scope>
+      <systemPath>/home/user/jfsaccounting/data/help.jar</systemPath>
     </dependency>
+    <!-- End of changes -->
     <!-- test dependencies -->
     <dependency>
       <groupId>junit</groupId>
