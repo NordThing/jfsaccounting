@@ -1,7 +1,13 @@
 # How to do it!
 1. Clone the repo
-1a. git clone https://github.com/NordThing/jfsaccounting.git
-
+2. git clone https://github.com/NordThing/jfsaccounting.git
+3. Build the software 
+3a. Change pom.xml 
+3b. Add local path to fonts.jar and help.jar that are located inside /data/ folder
+3c. Add <systemPath>/home/user/jfsaccounting/data/fonts.jar
+3d. Change <scope> from compile to system 
+4. Run mvn assemble:assemble
+5. Build should be possible now
 
 
 Fribok is a project for a free accounting software developed in Java. This
