@@ -185,10 +185,11 @@
         <version>1.1</version>
         <scope>compile</scope>
         </dependency-->
+<!-- Changed 20230716 -->
         <dependency>
           <groupId>commons-codec</groupId>
         <artifactId>commons-codec</artifactId>
-        <version>1.10</version>
+        <version>1.16.0</version>
         <scope>compile</scope>
       </dependency>
     <dependency>
@@ -235,16 +236,18 @@
       <version>3.4.1</version>
       <scope>compile</scope>
     </dependency>
+<!-- Changed 20230716 -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
-      <version>2.5</version>
+      <version>6.0.11</version>
       <scope>compile</scope>
     </dependency>
+<!-- Changed 20230716 -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-beans</artifactId>
-      <version>2.5</version>
+      <version>6.0.11</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -291,10 +294,11 @@
       <artifactId>xml-apis</artifactId>
       <version>1.4.01</version>
     </dependency>
+<!-- Changed 20230716 -->
     <dependency>
       <groupId>xerces</groupId>
       <artifactId>xercesImpl</artifactId>
-      <version>2.11.0</version>
+      <version>2.12.2</version>
       <scope>compile</scope>
     </dependency>
     <!-- Changes 20230713 -->
