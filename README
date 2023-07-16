@@ -6,8 +6,12 @@
 3b. Add local path to fonts.jar and help.jar that are located inside /data/ folder
 3c. Add <systemPath>/home/user/jfsaccounting/data/fonts.jar
 3d. Change <scope> from compile to system 
-4. Run mvn assemble:assemble
+4. Run mvn assembly:assembly
 5. Build should be possible now
+6. 
+
+## This project will test do some API 
+1. Howto do this
 
 
 Fribok is a project for a free accounting software developed in Java. This
